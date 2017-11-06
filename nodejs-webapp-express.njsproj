@@ -30,28 +30,15 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="app.js" />
-    <None Include="public\javascripts\_references.js" />
-    <Compile Include="public\javascripts\bootstrap.js" />
-    <Compile Include="public\javascripts\bootstrap.min.js" />
-    <None Include="public\javascripts\jquery.validate-vsdoc.js" />
-    <None Include="public\javascripts\jquery-1.10.2.intellisense.js" />
-    <Compile Include="public\javascripts\jquery-1.10.2.js" />
-    <Compile Include="public\javascripts\jquery-1.10.2.min.js" />
-    <Compile Include="public\javascripts\jquery.validate.js" />
-    <Compile Include="public\javascripts\jquery.validate.min.js" />
-    <Compile Include="public\javascripts\jquery.validate.unobtrusive.js" />
-    <Compile Include="public\javascripts\jquery.validate.unobtrusive.min.js" />
-    <Compile Include="public\javascripts\modernizr-2.6.2.js" />
-    <Compile Include="public\javascripts\respond.js" />
-    <Compile Include="public\javascripts\respond.min.js" />
     <Compile Include="routes\index.js" />
     <Compile Include="routes\users.js" />
     <Content Include="package.json" />
-    <Content Include="public\javascripts\jquery-1.10.2.min.map" />
+    <Content Include="public\fonts\segoeuil.ttf" />
+    <Content Include="public\images\successCloudNew.svg" />
+    <Content Include="public\images\tweetThis.svg" />
     <Content Include="public\stylesheets\bootstrap.css" />
     <Content Include="public\stylesheets\bootstrap.min.css" />
     <Content Include="public\stylesheets\style.css" />
-    <Content Include="public\stylesheets\style.styl" />
     <Content Include="README.md" />
     <Content Include="views\index.pug" />
     <Content Include="views\layout.pug" />
@@ -59,8 +46,8 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="public\" />
+    <Folder Include="public\fonts\" />
     <Folder Include="public\images\" />
-    <Folder Include="public\javascripts\" />
     <Folder Include="public\stylesheets\" />
     <Folder Include="routes\" />
     <Folder Include="views\" />
